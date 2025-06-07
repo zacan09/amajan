@@ -81,12 +81,12 @@ margin: 0;}
 .ove7{height: 240px;width: 23%;}
 .Accesories{text-align: center;}
 .box8{background-image:url(Accesories.png) ;background-size: cover;height: 235px;}
-.boxes2{display: flex;justify-content: space-evenly;margin-top: 60px;}
+.boxes2{display: flex;justify-content: space-evenly;margin-top: 60px;margin-bottom: 60px;}
 
-.daddeals{height: 95px;display: flex;align-items: center;justify-content: center;}
-.deals{background-image: url(dad\ deals.jpg);width: 95%;background-size: cover;}
+.daddeals{height: 95px;display: flex;align-items: center;justify-content: center}
+.deals{background-image: url(dad\ deals.jpg);width: 95%;background-size: cover;height: 95px:}
 
-.backtotop{height: 43px;background-color: #2d3131;color: #ffffff;text-align: center;display: flex;align-content: center;justify-content: center;}
+.backtotop{height: 43px;background-color: #2d3131;color: #ffffff;text-align: center;display: flex;align-content: center;justify-content: center;margin-top: 50px;}
 .top{margin-top: 10px;}
 .b1{font-weight: bold;}
 .b2,.b3,.b4{font-weight: bold;}
