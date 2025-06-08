@@ -104,3 +104,125 @@ ul{list-style-type: none;}
 
 
 
+/* For tablets (max-width: 992px) */
+@media (max-width: 992px) {
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+  }
+
+  .searchbar {
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .bar {
+    width: 60%;
+  }
+
+  .boxes, .boxes2 {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .over, .ove1, .ove2, .ove3, .ove4, .ove5, .ove6, .ove7 {
+    width: 45%;
+  }
+}
+
+/* For phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .logo, .add, .searchbar, .accounts, .cort, .trolley {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .searchbar {
+    justify-content: center;
+  }
+
+  .bar {
+    width: 70%;
+  }
+
+  .panel {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .right {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .boxes, .boxes2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .over, .ove1, .ove2, .ove3, .ove4, .ove5, .ove6, .ove7 {
+    width: 90%;
+  }
+
+  .con {
+    height: 180px;
+  }
+
+  .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8 {
+    height: 200px;
+  }
+
+  .list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo2 {
+    flex-direction: column;
+  }
+}
+
+/* Very small phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .bar {
+    width: 60%;
+  }
+
+  .magnifying {
+    width: 30px;
+  }
+
+  .searchbar {
+    flex-direction: column;
+  }
+
+  .add, .accounts, .cort, .trolley {
+    text-align: center;
+  }
+
+  .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8 {
+    height: 180px;
+  }
+
+  .deals {
+    height: 70px;
+  }
+
+  .daddeals {
+    margin: 30px 0;
+  }
+
+  .notat a {
+    display: block;
+    margin: 5px 0;
+  }
+}
